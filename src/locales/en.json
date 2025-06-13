@@ -1,0 +1,81 @@
+{
+  "name": "Juan Baltasar Martín",
+  "title": "Software Engineer Specialized in Node.js and React",
+  "address": "Mirave 3640, Apartment 8C - Buenos Aires",
+  "phone": "+54 911 5317-1056",
+  "email": "martinjuanbaltasar@gmail.com",
+  "about": "Passionate software engineer with solid experience in developing modern web applications using technologies such as JavaScript, Node.js, React, and TypeScript. I have participated in challenging projects in the private sector and multidisciplinary teams, developing advanced skills in interface design, system architecture, and database management. I stand out for my commitment to continuous improvement and the search for innovative solutions, as well as my ability to adapt to new technological challenges. I have an advanced level of English, which allows me to collaborate efficiently in international contexts.",
+  "objective": "Continue growing professionally in software development, participating in innovative projects that allow me to apply and expand my knowledge, actively contributing to achieving business objectives and making a positive impact on society.",
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "FK Tech",
+      "date": "Sep 2022 – Present",
+      "tech": "JavaScript, Node.js, React, TypeScript"
+    },
+    {
+      "role": "IT Developer",
+      "company": "Lainco Software",
+      "date": "Feb 2021 – Sep 2022",
+      "tech": "JavaScript, Node.js, React, TypeScript"
+    },
+    {
+      "role": ".NET Developer",
+      "company": "Docuprint S.A.",
+      "date": "Feb 2021 – Jun 2021",
+      "tech": "JavaScript, Node.js, React"
+    },
+    {
+      "role": "IT Developer",
+      "company": "PDA International",
+      "date": "Jul 2020 – Oct 2020",
+      "tech": "JavaScript, Node.js, React"
+    },
+    {
+      "role": "Systems Programmer",
+      "company": "MEPRYL S.A.",
+      "date": "Mar 2019 – May 2020",
+      "tech": "JavaScript, Node.js, React"
+    }
+  ],
+  "education": [
+    "Bachelor's in Systems – Universidad de Palermo (In progress)",
+    "Systems Analyst – ORT Institute (Completed in 2021)",
+    "Technical Baccalaureate in IT and Digital Media – ORT Technical School",
+    "React and Redux Course – Udemy. Certificate: UC-45f13c38-e80d-4659-8ef2-0f1430697987"
+  ],
+  "skills": [
+    "JavaScript (advanced)",
+    "TypeScript",
+    "Node.js (advanced)",
+    "React (advanced)",
+    "Vue.js (intermediate)",
+    "NestJS (advanced)",
+    "Express (upper-intermediate)",
+    "SQL (advanced)",
+    "SQL Server (advanced)",
+    "MongoDB",
+    "HTML5 (intermediate)",
+    "CSS (intermediate)",
+    "Git (advanced)",
+    "GitHub (advanced)",
+    "Responsive interface design and development",
+    "API integration",
+    "Best development practices",
+    "Teamwork and agile methodologies"
+  ],
+  "projects": [
+    "Karting race simulator with VR and LAN: Outstanding final project of the IT orientation (2018).",
+    "Node.js Project (Express + MongoDB): TrabajoFinalTP2-NT2 – Upper-intermediate level.",
+    "Vue.js Project: Feature development with Vuex and vue-router – Upper-intermediate level."
+  ],
+  "languages": [
+    "English: Advanced (spoken and written)  First Certificate in English – Score: 175/190 (Pass with merit)"
+  ],
+  "other": [
+    "Driver's license",
+    "Own vehicle",
+    "Willingness to travel"
+  ],
+  "changeLanguage": "Switch to Spanish"
+}

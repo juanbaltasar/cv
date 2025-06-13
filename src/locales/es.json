@@ -1,0 +1,81 @@
+{
+  "name": "Juan Baltasar Martín",
+  "title": "Ingeniero de Software Especializado en Node.js y React",
+  "address": "Mirave 3640, Departamento 8C - CABA",
+  "phone": "+54 911 5317-1056",
+  "email": "martinjuanbaltasar@gmail.com",
+  "about": "Ingeniero de software apasionado, con sólida experiencia en el desarrollo de aplicaciones web modernas utilizando tecnologías como JavaScript, Node.js, React y TypeScript. He participado en proyectos desafiantes dentro del sector privado y en equipos multidisciplinarios, desarrollando habilidades avanzadas en el diseño de interfaces, arquitectura de sistemas y manejo de bases de datos. Destaco por mi compromiso con la mejora continua y la búsqueda de soluciones innovadoras, así como por mi capacidad para adaptarme a nuevos desafíos tecnológicos. Cuento con nivel avanzado de inglés, lo que me permite colaborar eficientemente en contextos internacionales.",
+  "objective": "Continuar creciendo profesionalmente en el desarrollo de software, participando en proyectos innovadores que me permitan aplicar y expandir mis conocimientos, contribuyendo activamente al logro de objetivos de negocio y al impacto positivo en la sociedad.",
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "FK Tech",
+      "date": "Sep 2022 – Actualidad",
+      "tech": "JavaScript, Node.js, React, TypeScript"
+    },
+    {
+      "role": "IT Developer",
+      "company": "Lainco Software",
+      "date": "Feb 2021 – Sep 2022",
+      "tech": "JavaScript, Node.js, React, TypeScript"
+    },
+    {
+      "role": ".NET Developer",
+      "company": "Docuprint S.A.",
+      "date": "Feb 2021 – Jun 2021",
+      "tech": "JavaScript, Node.js, React"
+    },
+    {
+      "role": "IT Developer",
+      "company": "PDA International",
+      "date": "Jul 2020 – Oct 2020",
+      "tech": "JavaScript, Node.js, React"
+    },
+    {
+      "role": "Programador de Sistemas",
+      "company": "MEPRYL S.A.",
+      "date": "Mar 2019 – May 2020",
+      "tech": "JavaScript, Node.js, React"
+    }
+  ],
+  "education": [
+    "Licenciatura en Sistemas – Universidad de Palermo (En curso)",
+    "Analista de Sistemas – Instituto ORT (Finalizado en 2021)",
+    "Bachiller Técnico en Informática y Medios de Comunicación Digitales – Escuela Técnica ORT",
+    "Curso de React y Redux – Udemy. Certificado: UC-45f13c38-e80d-4659-8ef2-0f1430697987"
+  ],
+  "skills": [
+    "JavaScript (avanzado)",
+    "TypeScript",
+    "Node.js (avanzado)",
+    "React (avanzado)",
+    "Vue.js (intermedio)",
+    "NestJS (avanzado)",
+    "Express (medio-avanzado)",
+    "SQL (avanzado)",
+    "SQL Server (avanzado)",
+    "MongoDB",
+    "HTML5 (intermedio)",
+    "CSS (intermedio)",
+    "Git (avanzado)",
+    "GitHub (avanzado)",
+    "Diseño y desarrollo de interfaces responsivas",
+    "Integración de APIs",
+    "Buenas prácticas de desarrollo",
+    "Trabajo en equipo y metodologías ágiles"
+  ],
+  "projects": [
+    "Simulador de carreras de karting con VR y LAN: Proyecto final destacado de la orientación Informática (2018).",
+    "Proyecto Node.js (Express + MongoDB): TrabajoFinalTP2-NT2 – Nivel medio-avanzado.",
+    "Proyecto Vue.js: Desarrollo de funcionalidades con Vuex y vue-router – Nivel medio-avanzado."
+  ],
+  "languages": [
+    "Inglés: Avanzado (oral y escrito)  First Certificate in English – Nota: 175/190 (Pass with merit)"
+  ],
+  "other": [
+    "Carnet de conducir",
+    "Vehículo propio",
+    "Disponibilidad para viajar"
+  ],
+  "changeLanguage": "Cambiar a inglés"
+}
