@@ -39,54 +39,42 @@ function App() {
       </section>
       <section>
         <h3>{i18n.language === 'es' ? 'Experiencia Profesional' : 'Professional Experience'}</h3>
-        <ul>
-          {getExpArray().map((exp: any, idx: number) => (
-            <li key={idx}>
-              <strong>{exp.role}</strong> - {exp.company} <em>({exp.date})</em><br />
-              <span>{i18n.language === 'es' ? 'Tecnologías utilizadas:' : 'Technologies used:'} {exp.tech}</span>
-            </li>
-          ))}
-        </ul>
+        {getExpArray().map((exp: any, idx: number) => (
+          <div key={idx} style={{ marginBottom: '1em' }}>
+            <strong>{exp.role}</strong> - {exp.company} <em>({exp.date})</em><br />
+            <span>{i18n.language === 'es' ? 'Tecnologías utilizadas:' : 'Technologies used:'} {exp.tech}</span>
+          </div>
+        ))}
       </section>
       <section>
         <h3>{i18n.language === 'es' ? 'Formación Académica' : 'Education'}</h3>
-        <ul>
-          {getArray('education').map((ed: string, idx: number) => (
-            <li key={idx}>{ed}</li>
-          ))}
-        </ul>
+        {getArray('education').map((ed: string, idx: number) => (
+          <div key={idx}>{ed}</div>
+        ))}
       </section>
       <section>
         <h3>{i18n.language === 'es' ? 'Habilidades Técnicas' : 'Technical Skills'}</h3>
-        <ul>
-          {getArray('skills').map((sk: string, idx: number) => (
-            <li key={idx}>{sk}</li>
-          ))}
-        </ul>
+        {getArray('skills').map((sk: string, idx: number) => (
+          <div key={idx}>{sk}</div>
+        ))}
       </section>
       <section>
         <h3>{i18n.language === 'es' ? 'Proyectos Destacados' : 'Featured Projects'}</h3>
-        <ul>
-          {getArray('projects').map((pr: string, idx: number) => (
-            <li key={idx}>{pr}</li>
-          ))}
-        </ul>
+        {getArray('projects').map((pr: string, idx: number) => (
+          <div key={idx}>{pr}</div>
+        ))}
       </section>
       <section>
         <h3>{i18n.language === 'es' ? 'Idiomas' : 'Languages'}</h3>
-        <ul>
-          {getArray('languages').map((lg: string, idx: number) => (
-            <li key={idx}>{lg}</li>
-          ))}
-        </ul>
+        {getArray('languages').map((lg: string, idx: number) => (
+          <div key={idx}>{lg}</div>
+        ))}
       </section>
       <section>
         <h3>{i18n.language === 'es' ? 'Otros datos de interés' : 'Other Information'}</h3>
-        <ul>
-          {getArray('other').map((ot: string, idx: number) => (
-            <li key={idx}>{ot}</li>
-          ))}
-        </ul>
+        {getArray('other').map((ot: string, idx: number) => (
+          <div key={idx}>{ot}</div>
+        ))}
       </section>
     </div>
   );
