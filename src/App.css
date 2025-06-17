@@ -116,3 +116,26 @@ li {
 body {
   color: #000;
 }
+
+@media print {
+  .cv-container {
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .lang-btn {
+    display: none;
+  }
+
+  header h1, header h2, .cv-contact {
+    color: #000;
+  }
+
+  body {
+    color: #000;
+  }
+
+  button {
+    display: none;
+  }
+}

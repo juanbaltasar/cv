@@ -76,6 +76,11 @@ function App() {
           <div key={idx}>{ot}</div>
         ))}
       </section>
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <button className="lang-btn" onClick={() => window.print()}>
+          {i18n.language === 'es' ? 'Imprimir CV' : 'Print CV'}
+        </button>
+      </div>
     </div>
   );
 }
