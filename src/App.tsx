@@ -27,7 +27,12 @@ function App() {
         <div className="cv-contact">
           <span>{t('address')}</span> | <span>{t('phone')}</span> | <span><a href={`mailto:${t('email')}`}>{t('email')}</a></span>
         </div>
+        <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <button className="lang-btn" onClick={handleLanguageChange}>{t('changeLanguage')}</button>
+        <button className="lang-btn print-btn" onClick={() => window.print()}>
+          {i18n.language === 'es' ? 'Imprimir CV' : 'Print CV'}
+        </button>
+      </div>
       </header>
       <section>
         <h3>{i18n.language === 'es' ? 'Acerca de mí' : 'About Me'}</h3>
@@ -76,11 +81,6 @@ function App() {
           <div key={idx}>{ot}</div>
         ))}
       </section>
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <button className="lang-btn" onClick={() => window.print()}>
-          {i18n.language === 'es' ? 'Imprimir CV' : 'Print CV'}
-        </button>
-      </div>
     </div>
   );
 }
